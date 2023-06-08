@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registr</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/css/style.css">
+ </head>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <nav
+            class="d-flex align-items-center pt-3 pb-3 justify-content-between"
+          >
+            <img class="" src="./img/navbar_logo.svg" alt="" />
+            <div class="navbar_pages d-flex align-items-center gap-4">
+              <img class="d-flex  d-lg-none "  id="nav_togle" width="38" height="38" src="https://img.icons8.com/badges/48/000000/line-width.png" alt="line-width"/>
+              <ul class="d-none d-lg-flex gap-4 justify-content-between me-3">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blogPost.html">Blog</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+              <a class="login bg-white d-none d-lg-inline" href="./login.html">Login</a>
+          
+              <img
+                id="dark"
+                class="mode"
+                width="28"
+                height="28"
+                src="https://img.icons8.com/fluency/48/day-and-night.png"
+                alt="day-and-night"
+              />
+            
+            </div>
+          </nav>
+        </div>
+      </header> 
+
+
+<main>
+    <section>
+        <div class="container">
+        <h2 class="text-center pt-5 mt-5 pb-5">Register</h2>
+        <form class="w-50  form_registr m-auto pb-5 " >
+            <input required class="w-100 pt-3 pb-3 pt-3 mt-2   px-2" placeholder="Firstname" type="text">
+            <input required class="w-100 pt-3 pb-3 pt-3 mt-2  px-2 " placeholder="Lastname" type="text">
+            <input required class="w-100 pt-3 pb-3 pt-3  mt-2 px-2 " placeholder="Username" type="text">
+            <input required class="w-100 pt-3 pb-3 pt-3  mt-2  px-2" placeholder="Password" type="password">
+            <input required class="w-100 pt-3 pb-3 pt-3  mt-2  px-2 " placeholder="Confirm password" type="password">
+            <a href="./login.html"  ><button class="registr w-100  d-flex justify-content-center pt-3 pb-3 pt-3 mt-5 bg-warning fs-5 fw-bolder border-0 ">Register</button></a>
+        </form>
+
+    </div>
+    </section>
+</main>
+
+
+    <footer class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between pt-4">
+            <p > Finstreet 118 2561 Fintown <br>Hello@finsweet.com  020 7993 2905</p>
+            <div class="foot_logos d-flex gap-4">
+                <a href=""><img src="./img/facebook.svg" alt="icon"></a>
+                <a href=""><img src="./img/tvitter.svg" alt="icon"></a>
+                <a href=""><img src="./img/instagram.svg" alt="icon"></a>
+                <a href=""><img src="./img/linkedin.svg" alt="icon"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal2  container">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
